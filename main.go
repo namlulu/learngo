@@ -2,12 +2,16 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/namlulu/learngo/something"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
+	const name string = "namlulu"
+	// name = "namlulu2"
 
-	something.SayHello()
+	var name2 string = "namlulu"
+	name2 = "namlulu2"
+
+	name3 := "namlulu3"
+
+	fmt.Println(name, name2, name3)
 }
